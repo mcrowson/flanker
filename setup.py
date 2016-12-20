@@ -30,7 +30,6 @@ setup(name='flanker',
           'redis>=2.7.1',
           # IMPORTANT! Newer regex versions are a lot slower for
           # mime parsing (100x slower) so keep it as-is for now.
-          'regex>=0.1.20110315',
           'cryptography>=0.5',
       ],
 )
